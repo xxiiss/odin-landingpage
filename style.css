@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body {
 	margin: 0;
-
+	font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -22,9 +24,32 @@ li a {
 }
 
 h2 {
-	font: bold 48px sans-serif;
+	font-weight: bold;
+	font-size: 48px;
 	color:  #F9FAF8;
 	margin: 0;
+}
+
+h3 {
+	margin: 0;
+	font-weight: 800;
+	font-size: 36px;
+	color: #1F2937;
+}
+
+p {
+	margin: 0;
+}
+
+button {
+	background: #3882F6;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	border: solid white 1px;
+	border-radius: 5px;
+	color: white;
 }
 
 .header {
@@ -36,33 +61,111 @@ h2 {
 }
 
 .bloc1 {
-	padding: 40px 140px 40px 140px;
+	border: solid blue 3px;
+	padding: 72px 140px 72px 140px;
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
 	background: #1F2937;
 	color: #E5E7EB;
 	font-size: 18px;
 }
 
+.bloc1 button {
+	border: none;
+	width: 120px;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
 
 .bloc2 {
+	border: solid pink 3px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 72px;
+	padding-bottom: 72px;
 }
 
 
 .miniatures {
 	display: flex;
 	gap: 32px;
+	margin-top: 38px;
 
+}
+
+.miniature img {
+	border-radius: 3%;
 }
 
 .miniature-text {
 	width: 170px ;
 	text-align: center;
+	color: #E5E7EB;
 }
 
 .bloc3 {
 	background: #E5E7EB;
-	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 72px;
+	padding-bottom: 72px;
 }
+
+.bloc3 p {
+	width: 600px;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 36px;
+	color: #1F2937;
+}
+
+.auteur {
+	margin-top: 8px;
+}
+
+p.auteur {
+	text-align: right;
+	font-weight: 600;
+	font-size: 26px;
+	font-style: normal;
+}
+
+.bloc4 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 72px 140px 72px 140px;
+	color: white;
+}
+
+.CTA {
+	width: 100%;
+	background: #3882F6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2em;
+	border-radius: 5px;
+}
+
+
+.footer {
+	background: #1F2937;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 32px;
+}
+
+	
